@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Habibi';
+    src: url('fonts/Habibi-Regular.woff2') format('woff2'),
+        url('fonts/Habibi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faustina';
+    src: url('fonts/Faustina-Regular.woff2') format('woff2'),
+        url('fonts/Faustina-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* General setup */
 
 * {
@@ -32,4 +50,12 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+body {
+    font-family: "Habibi", serif;
+}
+
+header {
+    font-family: "Faustina", serif;
 }

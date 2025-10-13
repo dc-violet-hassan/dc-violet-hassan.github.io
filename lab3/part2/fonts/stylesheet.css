@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Habibi';
+    src: url('Habibi-Regular.woff2') format('woff2'),
+        url('Habibi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faustina';
+    src: url('Faustina-Regular.woff2') format('woff2'),
+        url('Faustina-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
