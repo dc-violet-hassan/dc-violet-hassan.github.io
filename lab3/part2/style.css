@@ -52,10 +52,70 @@ footer p {
   text-align: center;
 }
 
-body {
-    font-family: "Habibi", serif;
+html {
+  font-family: "Habibi", serif;
+  font-size: 13pt;
 }
 
-header {
-    font-family: "Faustina", serif;
+body {
+  line-height: 1.3rem;
 }
+
+p,
+li {
+  line-height: 1.3rem;
+  letter-spacing: 0.05rem;
+}
+
+h1 + p {
+  text-indent: 2rem;
+}
+
+h2 + p {
+  text-indent: 2rem;
+}
+
+h1,
+h2 {
+  font-family: "Faustina", serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0%;
+}
+
+a {
+  outline-color: transparent;
+}
+
+a:link {
+  color: #aa6666;
+}
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.25em;
+
+  background-size: 100%;
+  background-image: url("external-link-52.png");
+}
+
+a:visited {
+  color: #aa0033;
+}
+
+a:focus,
+a:hover {
+  color: #aa4466;
+  text-decoration: none;
+}
+
