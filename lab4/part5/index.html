@@ -15,103 +15,109 @@
   <body>
     <h1>We want your feedback!</h1>
 
-    We're very excited that you visited the little house in the woods,
+    We're very excited that you visited the <a href="#">little house in the woods</a>,
     and we want to hear what you thought of it! Please fill in the below
     sections. You don't need to provide your name or contact details, but
-    if you do, we'll enter you into a prize draw where you'll have a chance
+    if you do, we'll enter you into a <a href="#">prize draw</a> where you'll have a chance
     to win prizes.
 
-    --
+    <div class="form-section">
     <form>
-    <h2>Facilities</h2>
+        <h2>Facilities</h2>
 
-    <fieldset>
-    <legend>Was the porridge</legend>
-    <input type="radio" id="hot" name="temperature" value="Too hot" checked>
-    <label for="hot">Too hot?</label>
-    
-    <input type="radio" id="cold" name="temperature" value="Too cold">
-    <label for="cold">Too cold?</label>
-    
-    <input type="radio" id="just right" name="temperature" value="Just right">
-    <label for="just right">Just right?</label>
-    </fieldset>
+            <fieldset>
+                <legend>Was the porridge</legend>
+                <input type="radio" id="hot" name="temperature" value="Too hot" checked>
+                <label for="hot">Too hot?</label>
+                
+                <input type="radio" id="cold" name="temperature" value="Too cold">
+                <label for="cold">Too cold?</label>
+                
+                <input type="radio" id="just right" name="temperature" value="Just right">
+                <label for="just right">Just right?</label>
+            </fieldset>
 
-    <fieldset>
-    <legend>Were the beds</legend>
-    <input type="radio" id="hard" name="bed" value="Too hard" checked>
-    <label for="hard">Too hard?</label>
-    
-    <input type="radio" id="soft" name="bed" value="Too soft">
-    <label for="soft">Too soft?</label>
-    
-    <input type="radio" id="just right" name="bed" value="Just right">
-    <label for="just right">Just right?</label>
-    </fieldset>
+            <fieldset>
+                <legend>Were the beds</legend>
+                <input type="radio" id="hard" name="bed" value="Too hard" checked>
+                <label for="hard">Too hard?</label>
+                
+                <input type="radio" id="soft" name="bed" value="Too soft">
+                <label for="soft">Too soft?</label>
+                
+                <input type="radio" id="just right" name="bed" value="Just right">
+                <label for="just right">Just right?</label>
+            </fieldset>
 
-    <fieldset>
-    <legend>Describe the chairs (select all you agree with)</legend>
-    <input type="checkbox" id="comfy" name="chairs" value="Comfy">
-    <label for="comfy">Comfy</label>
-    
-    <input type="checkbox" id="luxurious" name="chairs" value="Luxurious">
-    <label for="luxurious">Luxurious</label>
+            <fieldset>
+                <legend>Describe the chairs (select all you agree with)</legend>
+                <input type="checkbox" id="comfy" name="chairs" value="Comfy">
+                <label for="comfy">Comfy</label>
+                
+                <input type="checkbox" id="luxurious" name="chairs" value="Luxurious">
+                <label for="luxurious">Luxurious</label>
 
-    <input type="checkbox" id="hi tec" name="chairs" value="Hi tec">
-    <label for="hi tec">Hi tec</label>
+                <input type="checkbox" id="hi tec" name="chairs" value="Hi tec">
+                <label for="hi tec">Hi tec</label>
 
-    <input type="checkbox" id="pretty" name="chairs" value="Pretty">
-    <label for="pretty">Pretty</label>
+                <input type="checkbox" id="pretty" name="chairs" value="Pretty">
+                <label for="pretty">Pretty</label>
 
-    <input type="checkbox" id="majestic" name="chairs" value="Majestic">
-    <label for="majestic">Majestic</label>
-    
-    <br>
+                <input type="checkbox" id="majestic" name="chairs" value="Majestic">
+                <label for="majestic">Majestic</label>
+            </fieldset>
+        
+        </div>
 
-    <h2>About your hosts</h2>
+        <div class="form-section">
+            <h2>About your hosts</h2>
+            
+            <label for="favorite">Who's your favorite bear?</label>
+            <select name="favorite" id="favorite">
+                <option value="Papa bear">Papa bear</option>
+                <option value="Mama bear">Mama bear</option>
+                <option value="Junior">Junior</option>
+                <option value="Dozer">Dozer</option>
+            </select>
+            
+            <div class="seperator">
+                <label for="greeting">Which greeting did you prefer?</label>
+                <select name="greeting" id="greeting">
+                    <option value="Wave">Wave</option>
+                    <option value="Friendly greeting">Friendly greeting</option>
+                    <option value="Growl">Growl</option>
+                    <option value="Claw marks in the door">Claw marks in the door</option>
+                </select>
+            </div>
+        </div>
 
-    <label for="favorite">Who's your favorite bear?</label>
-    <select name="favorite" id="favorite">
-        <option value="Papa bear">Papa bear</option>
-        <option value="Mama bear">Mama bear</option>
-        <option value="Junior">Junior</option>
-        <option value="Dozer">Dozer</option>
-    </select>
+        <div class="form-section">
+            <h2>Any other feedback?</h2>
+            <label for="feedback">Give us your comments</label>
+            <br>
+            <textarea id="feedback" name="feedback"></textarea>
+        </div>
 
-    <br>
+        <div class="form-section">
+            <h2>Your details</h2>
 
-    <label for="greeting">Which greeting did you prefer?</label>
-    <select name="greeting" id="greeting">
-        <option value="Wave">Wave</option>
-        <option value="Friendly greeting">Friendly greeting</option>
-        <option value="Growl">Growl</option>
-        <option value="Claw marks in the door">Claw marks in the door</option>
-    </select>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            
+            <div class="seperator">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
 
-    <br>
+            <div class="seperator">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+        </div>
 
-    <label for="feedback">
-        Any other feedback?
-        Give us your comments
-    </label>
-    <textarea id="feedback" name="feedback"></textarea>
-
-    <h2>Your details</h2>
-
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name">
-    <br>
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-    <br>
-    <label for="phone">Phone</label>
-    <input type="tel" name="phone" id="phone">
-
-    <br>
-
-    <input type="submit" value="Submit">
-
-    --
+        <div class="form-section">
+            <input type="submit" value="Submit">
+        </div>
     </form>
   </body>
 </html>
