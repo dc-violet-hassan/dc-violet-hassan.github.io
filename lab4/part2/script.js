@@ -23,7 +23,7 @@ for(const image of images){
     newImage.addEventListener("click", updateDisplayedImage);
     newImage.addEventListener("keydown", (event) => {
         if (event.code === "Enter") {
-            updateDisplayedImage();
+            updateDisplayedImage(event);
         }
     });
 }
@@ -32,3 +32,14 @@ function updateDisplayedImage(event){
     displayedImage.src = event.target.src;
     displayedImage.alt = event.target.alt;
 }
+
+btn.addEventListener("click", () => {
+    if (btn.classList.contains("dark")) {
+        btn.textContent = "Lighten";
+        overlay.style.backgroundColor = "rgb(0 0 0 / 0.5)";
+    } else {
+        btn.textContent = "Darken";
+        overlay.style.backgroundColor = "rgb(0 0 0 / 0)";
+    }
+    btn.classList.toggle("dark");
+});
