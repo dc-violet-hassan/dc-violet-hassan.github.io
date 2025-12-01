@@ -42,6 +42,7 @@ let dragged;
 let deletedCount = 0;
 let tauntCount = 0;
 let deleteBlocked = false;
+let errorSound = document.getElementById("error");
 
 //region EVENTHANDLERS
 
@@ -67,6 +68,7 @@ function deleteFile(ev) {
         checkForEvents();
     }
     else if(deleteBlocked){
+        errorSound.play();
         taunt();
     }
 }
