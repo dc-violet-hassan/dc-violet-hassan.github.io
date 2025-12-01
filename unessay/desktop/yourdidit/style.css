@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: deepskyblue;
+}
+
+div {
+    margin-left: auto;
+}
+
+p {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#mutter {
+    font-size: small;
+}
+
+.right {
+    margin-left: auto;
+}

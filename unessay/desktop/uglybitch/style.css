@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: lightskyblue;
+}
+
+header {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+p {
+    font-size: xx-large;
+}
+
+img {
+    align-content: end;
+}
+
+#buy {
+    display: block;
+    text-align: center;
+    height: 5rem;
+    width: 20rem;
+    font-size: 30pt;
+    background-color: lime;
+    margin: auto;
+}
