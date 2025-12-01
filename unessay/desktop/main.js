@@ -259,6 +259,7 @@ function checkForEvents(){
             if(window.confirm("Would you like to give up?")){
                 window.alert("I knew you'd understand eventually.");
                 window.close();
+                window.location.href = "https://blackscreen.app/";
             } else {
                 window.alert("You'll regret that.");
                 deleteBlocked = true;
