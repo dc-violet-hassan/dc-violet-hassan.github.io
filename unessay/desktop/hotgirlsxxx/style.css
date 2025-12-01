@@ -1,9 +1,21 @@
+html {
+    overflow: hidden;
+}
+
+#link, a, a:visited {
+    color: pink;
+}
+
 body {
+    overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     gap: 20px;
     padding: 20px 0;
     text-align: center;
+    font-size: x-large;
+    background-color: black;
+    color: white;
 }
 
 .col {
