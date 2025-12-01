@@ -16,6 +16,7 @@ figure {
     display: inline-block;
     text-align: center;
     margin: 20px;
+    min-height: 155px;
 }
 
 figure img {
