@@ -186,6 +186,16 @@ function populateIcons(icons) {
     }
 }
 
+/**
+ * If the user hasn't figured out how to play the game,
+ * tells the user how to play the game.
+ */
+function giveInstructions(){
+    if(deletedCount===0){
+        window.alert("Drag the icons into the Recycle Bin to clean the desktop!");
+    }
+}
+
 //region STORY FUNCTIONS
 /**
  * Checks if a story event should happen
@@ -378,4 +388,4 @@ garbageIcon.addEventListener("dragover", allowDrop);
 // icons = initializeIcons(iconData1);
 populateIcons(icons1);
 
-
+setTimeout(giveInstructions, 20000)
