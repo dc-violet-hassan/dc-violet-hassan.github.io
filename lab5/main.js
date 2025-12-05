@@ -45,3 +45,18 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+// Show transcript button
+
+const transcript = document.getElementById("transcript");
+const transcriptButton = document.getElementById('transcript-button');
+
+transcriptButton.onclick = () => {
+  if(transcriptButton.textContent === 'Show transcript'){
+    transcript.style.height = '100px'
+    transcriptButton.textContent = 'Hide transcript';
+  } else {
+    transcript.style.height = '0'
+    transcriptButton.textContent = 'Show transcript';
+  }
+}

@@ -260,3 +260,12 @@ audio {
   margin: 0;
   padding: 0;
 }
+
+#transcript-container{
+  text-align: center;
+}
+
+#transcript {
+  height: 0;
+  overflow: auto;
+}
