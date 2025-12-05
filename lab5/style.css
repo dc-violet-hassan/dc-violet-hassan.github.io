@@ -31,7 +31,7 @@ p, input, li, table, label {
 h1 {
   font-size: 4rem;
   text-align: center;
-  color: black;
+  color: white;
   text-shadow: 2px 2px 10px black;
 }
 
@@ -52,7 +52,7 @@ p, li, table {
 /* || header layout */
 
 nav, article, footer, .secondary {
-  background-color: #90ff90;
+  background-color: white;
 }
 
 article, footer, .secondary {
@@ -65,7 +65,7 @@ article {
 
 nav {
   height: 50px;
-  background-color: ff80ff;
+  background-color: white;
   display: flex;
   padding: 1% 0;
   margin-bottom: 10px;
