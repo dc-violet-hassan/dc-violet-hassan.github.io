@@ -23,7 +23,7 @@
       <font size="7">Welcome to our wildlife website</font>
     </div>
 
-    <div class="nav">
+    <nav>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our team</a></li>
@@ -35,7 +35,7 @@
         <input type="search" name="q" placeholder="Search query">
         <input type="submit" value="Go!">
       </form>
-    </div>
+    </nav>
 
     <main>
       <article>
@@ -109,6 +109,12 @@
         <audio controls>
           <source src="media/bear.mp3" type="audio/mp3">
           <source src="media/bear.ogg" type="audio/ogg">
+          <track
+            default
+            kind="captions"
+            srclang="en"
+            label="English"
+            src="captions.vtt">
           <p>It looks like your browser doesn't support HTML5 audio players.</p>
         </audio>
 
